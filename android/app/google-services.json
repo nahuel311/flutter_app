@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "884129878816",
+    "project_id": "lad-db",
+    "storage_bucket": "lad-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884129878816:android:2238ee47d4771a390afd45",
+        "android_client_info": {
+          "package_name": "com.haling.lad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884129878816-11c3llr730a9ngjd97q9li1caci0b5fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDssdJeDHaR82ARcQBKHTL9i8Wzzvrb_24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884129878816-11c3llr730a9ngjd97q9li1caci0b5fi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
