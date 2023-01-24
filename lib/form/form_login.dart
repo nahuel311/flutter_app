@@ -17,7 +17,7 @@ class _FormLoginState extends State<FormLogin> {
 
   Future signIn() async {
     await FirebaseAuth.instance.signInWithEmailAndPassword(
-      email: _userController.text.trim(), 
+      email: "${_userController.text.trim()}@mail.com", 
       password: _passController.text.trim()
     );
   }
@@ -36,10 +36,10 @@ class _FormLoginState extends State<FormLogin> {
       child: Container(
         alignment: Alignment.topCenter,
         child: SingleChildScrollView(
+          padding: const EdgeInsets.fromLTRB(30, 40, 30, 0),
           scrollDirection: Axis.vertical,
           child: Column(
             children: [
-              const SizedBox(height: 40),
         
               // Titulo
               const Text(
@@ -50,7 +50,7 @@ class _FormLoginState extends State<FormLogin> {
                     fontSize: 30, 
                     fontWeight: FontWeight.bold),
                 ),
-              const SizedBox(height: 45),
+              const SizedBox(height: 35),
         
               // Usuario
               Padding(
@@ -70,7 +70,7 @@ class _FormLoginState extends State<FormLogin> {
                         hintText: 'Usuario',
                       ),
                     ),
-                    ),
+                  ),
                 ),
               ),
               const SizedBox(height: 20),
